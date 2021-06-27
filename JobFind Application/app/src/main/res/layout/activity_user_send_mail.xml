@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserSendMailActivity"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/darkblue"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Adres:"
+      android:textAppearance="@style/TextAppearance.AppCompat"
+      android:textColor="@color/white"
+      android:textSize="20dp"
+      />
+
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="textEmailAddress"
+      android:hint="Ornek: aliveli@gmail.com"
+      android:background="@color/white"
+      android:textColorHint="@color/gray"
+      android:textSize="20dp"
+      android:id="@+id/adress_mail_Edittext"
+      android:textAlignment="center"/>
+
+
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Konu:"
+      android:textAppearance="@style/TextAppearance.AppCompat"
+      android:textColor="@color/white"
+      android:textSize="20dp"
+      />
+
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="textEmailAddress"
+      android:background="@color/white"
+      android:id="@+id/tittle_mail_Edittext"
+      android:textSize="20dp"
+      android:textAlignment="center"/>
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Icerik:"
+      android:textAppearance="@style/TextAppearance.AppCompat"
+      android:textColor="@color/white"
+      android:textSize="20dp"
+      />
+
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/white"
+      android:id="@+id/content_mail_Edittext"
+      android:lines="10"
+      android:gravity="start|top"
+
+      />
+
+
+    <Button
+      android:id="@+id/btn_send_mail"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="30dp"
+      android:text="Gonder"
+      android:backgroundTint="@color/pink" />
+
+
+
+
+
+
+</LinearLayout>

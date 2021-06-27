@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/darkblue"
+    tools:context=".UserSurveyActivity">
+
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Anket Formu:"
+      android:textSize="40dp"
+      android:id="@+id/textview_surveypage_for_user"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      >
+
+    </TextView>
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="60dp"
+
+    >
+
+    <TextView
+      android:layout_width="120dp"
+      android:layout_height="wrap_content"
+      android:text="Kategori:"
+      android:textSize="25dp"
+      android:id="@+id/textview_category_surveypage"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      >
+
+    </TextView>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="textEmailAddress"
+      android:hint="Giriniz"
+      android:textAlignment="center"
+      android:textColorHint="@color/white"
+      android:id="@+id/edittext_surveypage_for_category"
+      android:textColor="@color/white"
+      />
+
+
+  </LinearLayout>
+
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    >
+
+    <TextView
+      android:layout_width="120dp"
+      android:layout_height="wrap_content"
+      android:text="Puan:"
+      android:textSize="25dp"
+      android:id="@+id/textview_points_for_surveypage"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      >
+
+    </TextView>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="number"
+      android:hint="Giriniz"
+      android:textAlignment="center"
+      android:textColorHint="@color/white"
+      android:id="@+id/edittext_surveypage_for_points"
+      android:textColor="@color/white"
+      />
+
+
+  </LinearLayout>
+
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    >
+
+    <TextView
+      android:layout_width="120dp"
+      android:layout_height="wrap_content"
+      android:text="Sikayet:"
+      android:textSize="25dp"
+      android:inputType="text"
+      android:id="@+id/textview_unlike_for_surveypage"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      >
+
+    </TextView>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="text"
+      android:hint="Giriniz"
+      android:textColorHint="@color/white"
+      android:textAlignment="center"
+      android:id="@+id/edittext_surveypage_for_complaint"
+      android:textColor="@color/white"
+      />
+
+
+  </LinearLayout>
+
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+
+    <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="50dp"
+      android:text="Gonder"
+      android:id="@+id/btn_send_for_surveyPage"
+      android:textSize="20dp"
+      android:textColor="@color/white"
+      android:backgroundTint="@color/pink"/>
+
+
+
+  </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

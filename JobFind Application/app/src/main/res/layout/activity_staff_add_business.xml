@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StaffAddBusinessActivity"
+    android:orientation="vertical"
+    android:background="@color/darkblue"
+    android:id="@+id/view_Main_Menu_Staff">
+
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/pink">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="İlan Ekleme Formu"
+      android:textSize="25dp"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      >
+
+    </TextView>
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="text"
+      android:textSize="10dp"
+      android:textAlignment="center"
+      android:hint="Kategori ( Örnek: Yazılım, Tekstil vb. )"
+      android:textColorHint="@color/white"
+      android:id="@+id/category_entry"
+      android:textColor="@color/white"
+      />
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="text"
+      android:textSize="10dp"
+      android:textAlignment="center"
+      android:hint="Pozisyon ( Örnek: Tasarımcı, Mühendis vb. )"
+      android:textColorHint="@color/white"
+      android:id="@+id/position_entry"
+      android:textColor="@color/white"
+      />
+
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="text"
+      android:textSize="10dp"
+      android:textAlignment="center"
+      android:hint="Şehir"
+      android:textColorHint="@color/white"
+      android:id="@+id/city_entry"
+      android:textColor="@color/white"
+      />
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="text"
+      android:textSize="10dp"
+      android:textAlignment="center"
+      android:hint="İlçe"
+      android:textColorHint="@color/white"
+      android:id="@+id/district_entry"
+      android:textColor="@color/white"
+      />
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="text"
+      android:textSize="10dp"
+      android:textAlignment="center"
+      android:hint="Cinsiyet"
+      android:textColorHint="@color/white"
+      android:id="@+id/gender_entry"
+      android:textColor="@color/white"
+      />
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="number"
+      android:textSize="10dp"
+      android:textAlignment="center"
+      android:hint="Telefon"
+      android:textColorHint="@color/white"
+      android:id="@+id/phone_entry"
+      android:textColor="@color/white"
+      />
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="textEmailAddress"
+      android:textSize="10dp"
+      android:textAlignment="center"
+      android:hint="E-Posta"
+      android:textColorHint="@color/white"
+      android:id="@+id/email_entry"
+      android:textColor="@color/white"
+      />
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="number"
+      android:textSize="10dp"
+      android:textAlignment="center"
+      android:hint="Maaş"
+      android:textColorHint="@color/white"
+      android:id="@+id/salary_entry"
+      android:textColor="@color/white"
+      />
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="number"
+      android:textSize="10dp"
+      android:textAlignment="center"
+      android:hint="Haftalık Çalışma Saati"
+      android:textColorHint="@color/white"
+      android:id="@+id/weeklyhour_entry"
+      android:textColor="@color/white"
+      />
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+    <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Ekle"
+      android:id="@+id/btn_add_Job"
+      android:textSize="20dp"
+      android:textColor="@color/white"
+      android:backgroundTint="@color/pink"/>
+
+
+  </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

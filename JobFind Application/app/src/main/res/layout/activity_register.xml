@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".LoginActivity"
+  android:orientation="vertical"
+  android:gravity="center"
+  android:background="@color/darkblue"
+
+  >
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/pink">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Jobfind"
+      android:textSize="55dp"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      >
+
+    </TextView>
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="90dp"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="textEmailAddress"
+      android:hint="E-Posta"
+      android:textColorHint="@color/white"
+      android:id="@+id/email_register"
+      android:textColor="@color/white"
+      />
+
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="textPassword"
+      android:hint="Parola"
+      android:textColorHint="@color/white"
+      android:id="@+id/password_register"
+      android:textColor="@color/white"
+      />
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="textPassword"
+      android:hint="Parola ( Tekrar Giriniz )"
+      android:textColorHint="@color/white"
+      android:id="@+id/password_register_again"
+      android:textColor="@color/white"
+      />
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="70dp"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+
+    <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Kayit Ol"
+      android:id="@+id/btn_register_for_user"
+      android:textSize="25dp"
+      android:textColor="@color/white"
+      android:backgroundTint="@color/pink"/>
+
+
+
+
+
+
+
+  </LinearLayout>
+
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Staff_RemoveUserActivity"
+    android:gravity="center"
+    android:background="@color/darkblue">
+
+
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Silmek istediginiz kullanicinin bilgilerini giriniz"
+      android:textSize="25dp"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      >
+
+    </TextView>
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginTop="90dp">
+
+
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="textEmailAddress"
+      android:hint="E-Posta"
+      android:textColorHint="@color/white"
+      android:id="@+id/email_login_deleteStaffPage"
+      android:textColor="@color/white"
+      />
+
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="textPassword"
+      android:hint="Parola"
+      android:textColorHint="@color/white"
+      android:id="@+id/password_login_deleteStaffPage"
+      android:textColor="@color/white"
+      />
+
+  </LinearLayout>
+
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="250dp"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+
+    <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Sil"
+      android:id="@+id/btn_delete_Staff_for_user"
+      android:textSize="25dp"
+      android:textColor="@color/white"
+      android:backgroundTint="@color/pink"/>
+
+
+
+  </LinearLayout>
+
+
+
+
+</RelativeLayout>

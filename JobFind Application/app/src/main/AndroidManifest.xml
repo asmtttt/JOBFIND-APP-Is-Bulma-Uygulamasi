@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="samet.ocsoy.jobfindapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JobFindApp">
+        <activity android:name=".StaffAddSurveyActivity"></activity>
+        <activity android:name=".UserSurveyActivity" />
+        <activity android:name=".User_SettingsActivity" />
+        <activity android:name=".UserContactPhoneActivity" />
+        <activity android:name=".UserSendMailActivity" />
+        <activity android:name=".UserShowBusinessActivity" />
+        <activity android:name=".Staff_SettingsActivity" />
+        <activity android:name=".Staff_RemoveUserActivity" />
+        <activity android:name=".StaffShowStatisticsActivity" />
+        <activity android:name=".StaffTrashBusinessActivity" />
+        <activity android:name=".StaffAddBusinessActivity" />
+        <activity android:name=".Staff_MainMenuActivity" />
+        <activity android:name=".User_MainMenuActivity" />
+        <activity android:name=".Staff_RegisterActivity" />
+        <activity android:name=".Staff_LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
